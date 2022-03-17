@@ -2,6 +2,25 @@
     box-sizing: border-box; 
     /* box-sizing est appliqué à tous les éléments */
 }
+
 body{
     font-family: 'Raleway', sans-serif; /*ajout polices */
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 40px;
+    margin: 30px 0 30px 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin:0 10px 0 20px;
 }
