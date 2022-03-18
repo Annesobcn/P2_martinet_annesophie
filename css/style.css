@@ -7,7 +7,7 @@ body{
     font-family: 'Raleway', sans-serif; /*ajout polices */
     margin: 0;
 }
-
+/* Header */
 nav{
     display: flex;
     justify-content: space-between;
@@ -23,4 +23,20 @@ nav ul{
 }
 nav li{
     margin:0 10px 0 20px;
+}
+/* Formulaire recherche */
+section{
+    margin-left: 10px;
+    font-size: smaller;
+}
+#recherche{
+    display: flex;
+  
+}
+input[type=submit]{
+background-color: #0065FC;
+color: white;
+padding: 10px;
+border-radius: 0 10px 10px 0;
+border: none;
 }
