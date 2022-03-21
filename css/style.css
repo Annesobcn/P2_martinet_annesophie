@@ -20,7 +20,7 @@ nav{
     align-items: center;
 }
 nav img{
-    height: 40px;
+    height: 50px;
     margin: 30px 0 30px 30px;
 }
 nav ul{
@@ -29,54 +29,35 @@ nav ul{
 }
 nav li{
     margin:0 10px 0 20px;
-}
-/* Formulaire recherche */
-section{
-    margin-left: 10px;
-    font-size: smaller;
-}
-#recherche{
-    display: flex;
-  
-}
-input[type=submit]{
-background-color: #0065FC;
-color: white;
-padding: 10px;
-border-radius: 0 10px 10px 0;
-border: none;
-}
-article
-{
-    background-color: #F2F2F2;
-}
+    padding-top: 30px;
 
-
-
-article img
-{    
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 6px 6px 50px 6px;
-    border-radius: 30px 30px 0 0;
-    margin: 30px;
     
 }
+nav li:hover 
+{
+    border-top: solid 2px #0065FC;
+    border-style: outset;
 
-.rating {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-  }
-  .rating > span {
-    display: inline-block;
-    position: relative;
-    width: 1.1em;
-
-  }
-  .rating > span:hover:before,
-  .rating > span:hover ~ span:before {
-     content: "05";
-     position: absolute;
-
-  }
+}
+@media all and (max-width: 992px)
+{
+    nav li:hover
+    {
+        border-top: none;
+        padding-left: 10px;
+        border-left: solid 2px #0065FC;
+}
+@media all and (max-width: 768px)
+{
+    nav 
+    {
+        flex-direction: column;
+    }
+    nav li:hover
+    {
+        padding-bottom: 10px;
+        border-left: none;
+        border-top: none;
+        border-bottom: solid  #0065FC;
+    }
+}
