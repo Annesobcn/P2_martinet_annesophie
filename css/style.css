@@ -36,13 +36,15 @@ nav li{
 nav li:hover 
 {
     border-top: solid 2px #0065FC;
-    border-style: outset;
+    
 
 }
 @media all and (max-width: 992px)
 {
     nav li:hover
     {
+        flex-direction: column;
+        flex-grow: 10%;
         border-top: none;
         padding-left: 10px;
         border-left: solid 2px #0065FC;
@@ -51,6 +53,7 @@ nav li:hover
 {
     nav 
     {
+        transform-box: center;
         flex-direction: column;
     }
     nav li:hover
