@@ -1,0 +1,54 @@
+      <div class="activites">
+        <!--carte Vieux port-->
+        <div class="cardlarge">
+          <div class="imgvieuxport">
+            <img id="vieuxport" src="/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+              alt="Vieux Port" style="width: 100%;">
+          </div>
+          <p class="activite">Vieux Port</p>
+        </div>
+        <!-- cartes Pomegues et Frioul-->
+        <div class="cardsmediumetsmall">
+          <div class="cardmedium">
+            <div class="imgfortdepomegues">
+              <img id="imgfortdepomegues" src="/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                alt="Fort de Pomègues" >
+            </div>
+            <p class="activite">Fort de Pomègues</p>
+          </div>
+          <div class="cardsmall">
+            <div class="imgilesdufrioul">
+              <img id="imgilesdufrioul" src="/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                alt="Îles du Frioul" >
+            </div>
+            <p class="activite">Îles du Frioul</p>
+          </div>
+        </div>
+        <div class="cardlarge">
+          <div class="imgcalanques">
+            <img id="imgcalanques" src="/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+              alt="Parc National des Calanques" style="width: 100%;">
+          </div>
+          <p class="activite">Parc National des Calanques</p>
+        </div>
+        <!-- cartes Pomegues et Frioul-->
+        <div class="cardsmediumetsmall">
+          <div class="cardmedium">
+            <div class="imgnotredame">
+              <img id="imgnotredame" src="/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt="Notre-Dame-de-la-Garde" >
+            </div>
+            <p class="activite">Notre-Dame-de-la-Garde</p>
+          </div>
+          <div class="cardsmall">
+            <div class="imglongchamp">
+              <img id="imglongchamp" src="/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                alt="Parc Longchamp" >
+            </div>
+            <p class="activite">Parc Longchamp</p>
+          </div>
+        </div>
+      </div>
+    
+
+
